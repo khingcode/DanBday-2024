@@ -1,0 +1,33 @@
+* {
+    /* font-family: 'Gotham',sans-serif; */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.95),rgba(0,0,0,0.95)), url(img/dan\ backgrund.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(117, 3, 142, 0.2), 0 6px 20px 0 rgba(176, 19, 168, 0.19);
+}
+
+.hide-gradient .banner {
+    background-image: url(img/dan\ backgrund.png);
+}
+/* next part code*/
