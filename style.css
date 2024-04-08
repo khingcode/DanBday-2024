@@ -4,30 +4,81 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+
+    font-family: "Poppins",sans-serif;
+
+}
+.banner{
+    animation:transitionIn 0.75s;
+
+}
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
 }
 
 .banner {
-    display: flex;
+    /* display: flex; */
+    position: relative;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.95),rgba(0,0,0,0.95)), url(img/dan\ backgrund.png);
+    background-image: linear-gradient(rgba(0,0,0,0.95),rgba(0,0,0,0.95)), url(img/dan\ background.png);
     background-size: cover;
     background-position: center;
 }
 
-.button {
+.on {
+    color: #FFFBF5;
     padding: 10px 20px;
-    background-color: #fff;
+    background-color: rgb(195, 172, 208);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(100, 13, 121, 0.2), 0 6px 20px 0 rgba(94, 6, 85, 0.308);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+     left: 45%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.link{
+    color: #FFFBF5;
+    padding: 10px 20px;
+    background-color: rgb(195, 172, 208);
     border: none;
     border-radius: 20px;
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
     box-shadow: 0 8px 16px 0 rgba(117, 3, 142, 0.2), 0 6px 20px 0 rgba(176, 19, 168, 0.19);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+     left: 45%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
 }
 
 .hide-gradient .banner {
-    background-image: url(img/dan\ backgrund.png);
+    background-image: url(img/dan\ background.png);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+img{
+    width: 500px;
 }
 /* next part code*/
