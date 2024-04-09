@@ -160,6 +160,9 @@ body{
 }
 .inside p{
     color: #FFFBF5;
+    font-size: 14.5px;
+    text-align: justify;
+  text-justify: inter-word;
 }
 .inside h1{
     font-size: 120px;
